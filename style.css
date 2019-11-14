@@ -1,27 +1,29 @@
-*{
-  padding: 0;
-  margin: 0;
+/* Style the video: 100% width and height to cover the entire window */
+body {
+  background-color: #DCDCDC;
 }
 
-body{
-  width: 100%;
-  height: auto;
-  overflow: hidden;
+#myVideo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 95%;
+  height: 95%;
 }
 
-.content-wrapper{
-  width: 80%;
-  margin: 4% 10% 5% 10%;
-}
-
-.content-wrapper img{
-  width: 100%;
-}
-
-.btn{
-  background: #228B22;
-  color: #fff;
-  font-size:1.2rem;
-  padding: 15px 15px;
-  text-decoration: none;
+/* Add some content at the bottom of the video/page */
+.content {
+  font-family: 'Nothing You Could Do', cursive;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  margin-left: 40px;
+  margin-right: auto;
+  margin-bottom: 255px;
+  width: 93%;
+  padding: 5px;
 }
