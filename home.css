@@ -1,0 +1,38 @@
+header {
+  position: relative;
+  width: 100%;
+}
+
+body {
+  background-image: url("https://d1xw84ija6gjgy.cloudfront.net/production/dc6a70712a252123c40d2adba6a11d84/conversions/720p.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#main {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  margin-left: 125px;
+}
+
+.card {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
