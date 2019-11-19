@@ -1,38 +1,29 @@
-header {
-  position: relative;
-  width: 100%;
-}
-
-body {
-  background-image: url("https://d1xw84ija6gjgy.cloudfront.net/production/dc6a70712a252123c40d2adba6a11d84/conversions/720p.jpg");
+.header {
+  padding: 160px;
+  text-align: center;
+  background-image: url("https://www.pressandjournal.co.uk/wp-content/uploads/sites/2/2014/06/Union-Terrace-Gardens.jpg");: #F2F4CE;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  color: white;
+  width: 100%;
+  font-family: Verdana, sans-serif;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+#side {
+  background-color: #f1f1f1;
+  padding: 20px;
 }
 
 #main {
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-  font-weight: bold;
-}
-
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  margin-left: 125px;
-}
-
-.card {
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  padding: 20px;
 }
