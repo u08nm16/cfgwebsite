@@ -1,82 +1,139 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>EcoLogic</title>
-    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="home.css">
-  </head>
-  <body>
-    <div class="row">
-    <header
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-family: 'Josefin Sans', sans-serif;">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="...">Research</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="homepage.html">Sustainability</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="http://127.0.0.1:5000/name#">Contact Us</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-    </header>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="home.css">
+  <title>EcoLogic</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <div class="header">
+      <h1 style="font-weight: bold;">EcoLogic</h1>
+      <p>How the Oil Capital of Europe is Going Green</p>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="width: 100%; font-family: 'Josefin Sans', sans-serif;">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="research.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="homepage.html">Sustainability</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
   </div>
   <div class="row">
-    <div class="col-md-12" id="main">
-      <h1 style="color: white; font-weight: bold; font-family: 'Nothing You Could Do', cursive;">EcoLogic</h1>
-      <p style="color: white; font-weight: bold;">Some text goes here</p>
-      <div class="container">
-        <img src="https://www.dvcinquirer.com/wp-content/uploads/2019/09/Global-Climate-Strike-Aspen-900x450.jpg">
-        <div class="bottom-left">
-          <h2>Global Climate Strike</h2>
-          <p>Some stuff about 2050 carbon reduction goals</p>
+    <div class="col-md-3" id="side" style="background-color: #f1f1f1;s">
+      <h2>EVENTS</h2>
+      <div style="padding: 10px; margin-top: 5px; margin-bottom; 5px;" class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Werland Conservation for Dragonflies</h5>
+          <h6 class="card-subtitle mb-2 text-muted">23 Nov, 2019 at 10 am - Scotstown Moor</h6>
+          <p class="card-text">Dragonflies need areas of open and vegetated water to breed and hunt. You can help the aquatic wildlife of Scotstown Moor by joing the Rangers to open up pools and channels within the reservve!</p>
         </div>
+      </div>
+      <div style="padding: 10px; margin-top: 5px; margin-bottom; 5px;" class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Plant Bulbs with AberGreen</h5>
+          <h6 class="card-subtitle mb-2 text-muted">24 Nov, 2019 at 11 am - Secret Garden</h6>
+          <p class="card-text">Come along to plant bulbs for decoration and food. We hold weekly gardening sessions! No experience is necessary.</p>
+          <a href="https://www.ausa.org.uk/getinvolved/abergreen/communitygarden/" class="card-link">Get Involved</a>
+        </div>
+      </div>
+      <div style="padding: 10px; margin-top: 5px; margin-bottom; 5px;" class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">ABDN // Global General Strike for Climate</h5>
+          <h6 class="card-subtitle mb-2 text-muted">29 Nov, 2019 at 11 am - Castlegate</h6>
+          <p class="card-text">We are joing the global movement in a general strike for climate justice in the lead up to the COP25 summit in Spain. Come along to show your support!</p>
+          <a href="https://bit.ly/31Um82A" class="card-link">Get Invloved</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9" id="main">
+      <div style="margin-left:10px; margin-bottom:20px;" class="row">
+        <h2>GLOBAL CLIMATE STRIKE</h2>
+        <div style="height: 450px; width: 850px;" id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div style="height: 450px; width: 850px;" class="carousel-inner">
+            <div class="carousel-item active">
+              <img style="height: 650px; width: 850px;" class="d-block w-100" src="https://www.dvcinquirer.com/wp-content/uploads/2019/09/Global-Climate-Strike-Aspen-900x450.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img style="height: 650px; width: 850px;" class="d-block w-100" src="https://storage.googleapis.com/stateless-labourheartlands-com/2019/09/22c8afb4-children-hold-up-placards-as-they-attend-the-global-climate-strike-in-london.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img style="height: 650px; width: 850px;" class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ckywsfaNsR0BUUcwLQ8wUkO9mrULn0EPsqQ_iQOqIUuRYTuLVQ&s" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+      <div style="margin-left: 10px; margin-right: 35px;" class="col-md-3" id="main">
+        <div class="card" style="width: 19rem; background-color: #f1f1f1;">
+          <img src="https://thegateway.imgix.net/3418.jpg?auto=format,enhance&fit=crop&crop=faces&w=700&h=500&q=100%27" class="card-img-top" style="height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Industry</h5>
+            <p class="card-text">...</p>
+            <a href="..." class="btn btn-primary">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div style="margin-left: 10px; margin-right: 35px;" class="col-md-3" id="main">
+        <div class="card" style="width: 19rem; background-color: #f1f1f1;">
+          <img src="https://www.un.org/esa/ffd/ffddialogue/images/E_SDG%20goals_icons-individual-rgb-13.png" class="card-img-top" style="height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Research</h5>
+            <p class="card-text">The International Panel on Climate Change has set a goal to reduce carbon emmisions by 80% to prevent an increase of average global temperature of over 2C. To achieve this goal, research is going into carbon capture storage (CCS) and carbon capture utilization (CCU).</p>
+            <a href="https://www.abdn.ac.uk/geosciences/departments/geography-environment/ccc-800.php" class="btn btn-primary">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div style="margin-left: 10px; margin-right: 35px;" class="col-md-3" id="main">
+        <div class="card" style="width: 19rem; background-color: #f1f1f1;">
+          <img src="https://sloanreview.mit.edu/content/uploads/2018/07/GEN-Winston-Sustainability-Business-CEO-CFO-Corporate-Responsibility-Environment-Leadership-1200.jpg" class="card-img-top" style="height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Sustainability</h5>
+            <p class="card-text">Some text</p>
+            <a href="..." class="btn btn-primary">Learn more</a>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-4" id="main">
-      <div class="card" style="width: 23rem;">
-        <img src="https://thegateway.imgix.net/3418.jpg?auto=format,enhance&fit=crop&crop=faces&w=700&h=500&q=100%27)" class="card-img-top" style="height: 300px;">
-        <div class="card-body">
-          <h5 class="card-title">Industry</h5>
-          <p class="card-text">Add description (Irisa)</p>
-          <a href="..." class="btn btn-primary">Learn more</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4" id="main">
-      <div class="card" style="width: 23rem;">
-        <img src="https://www.un.org/esa/ffd/ffddialogue/images/E_SDG%20goals_icons-individual-rgb-13.png" class="card-img-top" style="height: 300px;">
-        <div class="card-body">
-          <h5 class="card-title">Research</h5>
-          <p class="card-text">The International Panel on Climate Change has set a goal to reduce carbon emmisions by 80% to prevent an increase of average global temperature of over 2C. To achieve this goal, research is going into carbon capture storage (CCS) and carbon capture utilization (CCU).</p>
-          <a href="https://www.abdn.ac.uk/geosciences/departments/geography-environment/ccc-800.php" class="btn btn-primary">Learn more</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4" id="main">
-      <div class="card" style="width: 23rem;">
-        <img src="https://sloanreview.mit.edu/content/uploads/2018/07/GEN-Winston-Sustainability-Business-CEO-CFO-Corporate-Responsibility-Environment-Leadership-1200.jpg" class="card-img-top" style="height: 300px;">
-        <div class="card-body">
-          <h5 class="card-title">Sustainability</h5>
-          <p class="card-text">Add Description (Sabrina)</p>
-          <a href="..." class="btn btn-primary">Learn more</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
