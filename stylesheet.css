@@ -85,46 +85,6 @@ body {
 }
 
 
-.facebook {
-  padding: 0px;
-  width: 40px;
-  text-decoration: none;
-
-}
-.facebook: hover {
-  opacity: 0.7;
-}
-.facebook {
-  color: white;
-}
-
-.instagram {
-  padding: 0px;
-  width: 40px;
-  text-decoration: none;
-}
-.instagram : hover {
-  opacity: 0.7;
-}
-.instagram {
-  color: white;
-}
-
-.twittericon {
-  padding: 0px;
-  width: 40px;
-  text-decoration: none;
-}
-.twittericon : hover {
-  opacity: 0.7;
-}
-.twittericon {
-  color: white;
-}
-
-
-
-
 .footer {
   position: fixed;
   left: 0;
