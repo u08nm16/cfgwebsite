@@ -27,3 +27,9 @@ body {
 #main {
   padding: 20px;
 }
+
+#footer {
+  background-color: #A9A9A9;
+  padding: 20px;
+  color: #f1f1f1;
+}
